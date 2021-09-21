@@ -9,9 +9,9 @@ import java.lang.reflect.Method;
 public class HelloClasssloder extends ClassLoader {
 
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
-        Class<?> hello = new HelloClasssloder().findClass("Hello");
+        Class<?> hello = new HelloClasssloder().loadClass("Hello");
         Method helloMethod = hello.getMethod("hello");
-        helloMethod.invoke(hello.newInstance(),null);
+        helloMethod.invoke(hello.newInstance());
     }
 
     @Override
