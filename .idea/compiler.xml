@@ -9,12 +9,14 @@
         <module name="work3" />
         <module name="pl" />
         <module name="work02" />
+        <module name="work4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pl" target="1.8" />
       <module name="work02" target="1.8" />
       <module name="work3" target="1.8" />
+      <module name="work4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +24,7 @@
       <module name="pl" options="-parameters" />
       <module name="work02" options="-parameters" />
       <module name="work3" options="-parameters" />
+      <module name="work4" options="-parameters" />
     </option>
   </component>
 </project>
