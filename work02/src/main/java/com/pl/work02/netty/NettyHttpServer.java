@@ -1,4 +1,4 @@
-package com.pl.work02.netty;
+package com.pll.work02.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;

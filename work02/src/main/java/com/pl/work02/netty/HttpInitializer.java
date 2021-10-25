@@ -1,4 +1,4 @@
-package com.pl.work02.netty;
+package com.pll.work02.netty;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

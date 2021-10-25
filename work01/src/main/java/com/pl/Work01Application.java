@@ -1,4 +1,4 @@
-package com.pl;
+package com.pll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

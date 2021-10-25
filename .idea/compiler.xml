@@ -2,31 +2,53 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="work3" />
-        <module name="work5" />
+        <module name="homework1" />
+        <module name="xml" />
         <module name="pl" />
+        <module name="sks-spring-boot-starter" />
         <module name="work02" />
-        <module name="work4" />
+        <module name="annotation" />
+      </profile>
+      <profile name="Annotation profile for work3" enabled="true">
+        <sourceOutputDir name="../work3/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../work3/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="work03" />
+      </profile>
+      <profile name="Annotation profile for work4" enabled="true">
+        <sourceOutputDir name="../work4/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../work4/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="work04" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="annotation" target="8" />
+      <module name="homework1" target="1.8" />
       <module name="pl" target="1.8" />
+      <module name="sks-spring-boot-starter" target="1.8" />
       <module name="work02" target="1.8" />
-      <module name="work3" target="1.8" />
-      <module name="work4" target="1.8" />
+      <module name="work03" target="1.8" />
+      <module name="work04" target="1.8" />
+      <module name="work05" target="1.8" />
       <module name="work5" target="1.8" />
+      <module name="xml" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="homework1" options="-parameters" />
       <module name="pl" options="-parameters" />
+      <module name="sks-spring-boot-starter" options="-parameters" />
       <module name="work02" options="-parameters" />
-      <module name="work3" options="-parameters" />
-      <module name="work4" options="-parameters" />
+      <module name="work03" options="-parameters" />
+      <module name="work04" options="-parameters" />
+      <module name="work05" options="-parameters" />
       <module name="work5" options="-parameters" />
     </option>
   </component>

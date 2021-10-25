@@ -1,4 +1,4 @@
-package com.pl;
+package com.pll;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

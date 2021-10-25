@@ -1,4 +1,4 @@
-package com.pl.work02;
+package com.pll.work02;
 
 import java.io.IOException;
 import java.io.PrintWriter;
