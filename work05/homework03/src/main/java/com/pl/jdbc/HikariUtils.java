@@ -1,4 +1,4 @@
-package com.pll.work05.homework03;
+package com.pl.jdbc;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;

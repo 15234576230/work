@@ -8,11 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="homework1" />
+        <module name="annotation" />
+        <module name="work02" />
+        <module name="work4" />
+        <module name="work3" />
         <module name="xml" />
+        <module name="homework03" />
         <module name="pl" />
         <module name="sks-spring-boot-starter" />
-        <module name="work02" />
-        <module name="annotation" />
       </profile>
       <profile name="Annotation profile for work3" enabled="true">
         <sourceOutputDir name="../work3/target/generated-sources/annotations" />
@@ -29,6 +32,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="annotation" target="8" />
+      <module name="homework03" target="1.8" />
       <module name="homework1" target="1.8" />
       <module name="pl" target="1.8" />
       <module name="sks-spring-boot-starter" target="1.8" />
@@ -36,12 +40,18 @@
       <module name="work03" target="1.8" />
       <module name="work04" target="1.8" />
       <module name="work05" target="1.8" />
+      <module name="work3" target="1.8" />
+      <module name="work3 (1)" target="1.8" />
+      <module name="work4" target="1.8" />
       <module name="work5" target="1.8" />
+      <module name="wrapper (1)" target="1.5" />
+      <module name="wrapper (2)" target="1.5" />
       <module name="xml" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="homework03" options="-parameters" />
       <module name="homework1" options="-parameters" />
       <module name="pl" options="-parameters" />
       <module name="sks-spring-boot-starter" options="-parameters" />
@@ -49,6 +59,9 @@
       <module name="work03" options="-parameters" />
       <module name="work04" options="-parameters" />
       <module name="work05" options="-parameters" />
+      <module name="work3" options="-parameters" />
+      <module name="work3 (1)" options="-parameters" />
+      <module name="work4" options="-parameters" />
       <module name="work5" options="-parameters" />
     </option>
   </component>

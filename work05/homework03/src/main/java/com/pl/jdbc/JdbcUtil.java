@@ -1,4 +1,4 @@
-package com.pll.work05.homework03;
+package com.pl.jdbc;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,7 +17,7 @@ public class JdbcUtil {
      */
     static {
         try {
-            drivername = "com.mysql.jdbc.Driver";
+            drivername = "com.mysql.cj.jdbc.Driver";
             url = "jdbc:mysql://localhost:3306/appeal";
             user = "root";
             password = "root";
