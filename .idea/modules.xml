@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/work05/homework01/annotation/annotation.iml" filepath="$PROJECT_DIR$/work05/homework01/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work05/homework02/demo/demo.iml" filepath="$PROJECT_DIR$/work05/homework02/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/work05/homework03/homework03.iml" filepath="$PROJECT_DIR$/work05/homework03/homework03.iml" />
       <module fileurl="file://$PROJECT_DIR$/work01/pl.iml" filepath="$PROJECT_DIR$/work01/pl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/start/sks-spring-boot-starter.iml" filepath="$PROJECT_DIR$/start/sks-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/work05/homework02/pl-spring-boot-starter/pl-spring-boot-starter.iml" filepath="$PROJECT_DIR$/work05/homework02/pl-spring-boot-starter/pl-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/work.iml" filepath="$PROJECT_DIR$/.idea/work.iml" />
       <module fileurl="file://$PROJECT_DIR$/work02/work02.iml" filepath="$PROJECT_DIR$/work02/work02.iml" />
       <module fileurl="file://$PROJECT_DIR$/work03/work03.iml" filepath="$PROJECT_DIR$/work03/work03.iml" />

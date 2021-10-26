@@ -1,0 +1,9 @@
+
+<beans >
+    <bean id = "userService" class="com.pl.homework02.service.UserServiceImpl">
+        <property ref="userDao"/>
+    </bean>
+
+    <bean id = "userDao" class="com.pl.homework02.dao.UserDao"/>
+
+</beans>

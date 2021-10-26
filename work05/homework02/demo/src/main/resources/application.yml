@@ -1,0 +1,25 @@
+
+student:
+  id: 1
+  name: pl
+  isopen: true
+
+klass:
+  students:
+    - id: 11
+      name: p
+    - id: 12
+      name: l
+
+school:
+  klasses:
+    - students:
+      - id: 110
+        name: zhangsan
+      - id: 120
+        name: lisi
+    - students:
+        - id: 119
+          name: wangwu
+        - id: 999
+          name: zhaoliu

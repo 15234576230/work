@@ -1,4 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
- com.pll.start.config.StudentConfig,\
- com.pll.start.config.KlassConfig,\
- com.pll.start.config.SchoolConfig

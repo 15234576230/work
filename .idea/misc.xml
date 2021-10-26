@@ -10,12 +10,14 @@
         <option value="$PROJECT_DIR$/work02/pom.xml" />
         <option value="$PROJECT_DIR$/work3/pom.xml" />
         <option value="$PROJECT_DIR$/work4/pom.xml" />
-        <option value="$PROJECT_DIR$/start/pom.xml" />
         <option value="$PROJECT_DIR$/work05/homework01/annotation/pom.xml" />
         <option value="$PROJECT_DIR$/work05/homework01/xml/pom.xml" />
         <option value="$PROJECT_DIR$/work04/pom.xml" />
         <option value="$PROJECT_DIR$/work03/pom.xml" />
         <option value="$PROJECT_DIR$/work05/homework03/pom.xml" />
+        <option value="$PROJECT_DIR$/work05/homework02/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/work05/homework02/xsj-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/work05/homework02/pl-spring-boot-starter/pom.xml" />
       </list>
     </option>
   </component>
